@@ -1,0 +1,346 @@
+body{
+    background-color: black;
+}
+p{
+    color: azure;
+}
+video{margin-top:0;
+    width:100%;
+    height: auto;
+    }
+a{
+    color: azure;
+    text-decoration: none;
+    letter-spacing: normal;
+    padding: 0.2rem;
+    font-size: 130%;
+}
+.background1{
+    background-image: url("pexels-pixabay-258154.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav-bar-1{
+    height:50px;
+    display: flex; transition: 1s;
+    background-color: #000;
+    width: 100%;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 9999;
+}
+.nav-bar-11{
+    color: white;
+    width: auto;
+    float: left;
+    font-size: 200%;
+    position:relative;
+    margin-top: 10px;
+}
+.nav-bar-12{margin-left: auto; margin-right: 15px; margin-top: 10px;
+    display: flex;
+    padding: 0.3rem;
+    justify-content: right;
+    color: aliceblue;
+    position: relative;
+}
+header {
+    background: rgb(19, 19, 19);
+    color: #f1f1f1;
+}
+    #menu{
+        width: 35px;
+        height: 30px;
+        margin: 08px 0 20px;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .nav{
+        padding-right:0px;
+        margin: 0 20px;
+        display: none;
+        transition: 1s;
+        width:400px;
+        position: relative;
+        z-index: 2;
+    }
+    .bar{
+        height: 5px;
+        width: 100%;
+        background-color: aliceblue;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+
+    }
+    #bar1{
+        transform: translateY(-3px);
+    }
+    #bar3{
+        transform: translateY(3px);
+    }
+    .icon .bar{
+        background-color: aliceblue;
+    }
+    .icon #bar1{
+        transform: translateY(3px) rotate(-45deg);
+    }
+    .icon #bar3{
+        transform: translateY(-6px) rotate(45deg);
+    }
+    .icon #bar2{
+        opacity: 0;
+    }
+    .change{
+        background-color: rgb(32, 32, 32);
+        height: 40vh;
+        margin: 0;
+        position: absolute;
+        font-size: 30px;
+        top:0;
+        width:0;
+        z-index:-100;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+.main-page1{ display:grid;
+   grid-template-columns:50% 50%;
+   margin: 0 rem;
+   gap: 0.1rem;
+   overflow: hidden;
+   justify-content: space-around;
+}
+.grid1-1{
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/12/Asset-5-100-copy.jpg");
+    width: 100%;height:100%; border-radius: 10px;
+    background-size:cover
+}
+.grid1-1:hover{
+    filter:blur(8px);transition: 1s;
+}
+.grid1-2{
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2020/05/Clean-and-conscious.jpg");
+    width: 100%;height: 500px; border-radius: 10px;
+    background-size:auto;
+    background-attachment: fixed;
+}
+.grid1-2:hover{filter:blur(8px);
+    transition: 1s;
+}
+/* .grid1-3{
+    background-color: rgb(232, 186, 186);
+    width:100%;height: 100%;
+    border-radius: 10px;
+} */
+.grid1-3:hover{filter:blur(8px);transition: 1s;
+}
+.grid1-4{
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2021/01/beyond-hello-h-res.jpg");
+    width:100%;height: 500px; border-radius: 10px;
+    grid-column:-3/4;
+    background-size: cover;
+}
+.grid1-4:hover{filter:blur(8px);transition: 1s;
+}
+.main-page2{ display:grid;
+   grid-template-columns:50% 50%;
+   margin: 0.1rem;
+   gap: 0.1rem;
+
+    overflow: hidden;
+    justify-content: space-around;
+}
+.grid2-1{
+    /* background-color: rgb(163, 130, 223); */
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/12/Asset-5-100-copy.jpg");
+    width: 100%;height:auto; border-radius: 10px;
+    grid-row: 1/4;
+    background-size:auto ;background-attachment: fixed;
+    
+}
+.grid2-1:hover{filter:blur(8px);transition: 1s;
+}
+.grid2-2{
+    /* background-color: rgb(61, 3, 3); */
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/11/corona-h-res.jpg");
+    width: 100%;height: 500px; border-radius: 10px;
+    background-size:cover; 
+}
+.grid2-2:hover{filter:blur(8px);transition: 1s;
+}
+/* .grid2-3{
+    background-color: rgb(232, 186, 186);
+    width:100%;height: 100%;
+    border-radius: 10px;
+}
+.grid2-3:hover{filter:blur(8px);transition: 1s;
+} */
+.grid2-4{
+    /* background-color: rgb(182, 182, 192); */
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/12/Asset-8-100-copy.jpg");
+    width:100%;height: 400px; border-radius: 10px;
+    background-size: cover;
+}
+.grid2-4:hover{filter:blur(8px);transition: 1s;
+}
+.main-page3{ display:grid;
+   grid-template-columns:50% 50%;
+   margin: 0.1rem;
+   gap: 0.1rem;
+   overflow: hidden;
+   justify-content: space-around;
+}
+/* .grid3-1{
+    background-color: rgb(63, 9, 22);
+    width: 100%;height:100%; border-radius: 10px;  
+}
+.grid3-1:hover{filter:blur(8px);transition: 1s;
+} */
+.grid3-2{
+    /* background-color: rgb(211, 201, 162); */
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/12/Asset-9-100-copy.jpg");
+    width: 100%;height: 300px; border-radius: 10px;
+    grid-column: 1/4;
+    background-size: cover;
+}
+.grid3-2:hover{filter:blur(8px);transition: 1s;
+}
+.grid3-3{
+    /* background-color: rgb(234, 17, 17); */
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/11/lux-h-res.jpg");
+    width:100%;height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+.grid3-3:hover{filter:blur(8px);transition: 1s;
+}
+.grid3-4{
+background-image: url();
+    /* background-color: rgb(38, 212, 128); */
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/11/Hendricks-featured.jpg");
+    width:100%;height: 400px; border-radius: 10px;
+    background-size:cover;
+}
+.grid3-4:hover{filter:blur(8px);transition: 1s;
+}
+.text{
+    padding: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+@media (max-width:768px){
+    p{font-size: 100%;}
+    .text{ padding:10%;}  
+    .footer-item{
+            width:auto;
+            height: auto;
+            align-items: center;
+            justify-self:center;
+            overflow: hidden;
+            margin: 1rem;}
+} 
+  .slider {
+    text-align: center;
+    overflow:hidden;
+  }
+  
+  .slides {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior:smooth;
+    -webkit-overflow-scrolling: touch;
+    
+   }
+  .slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .slides::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-image: url("https://www.barrowsglobal.com/wp-content/uploads/2019/12/Asset-10-100.jpg");
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+  .slider > a:active {
+    top: 1px;
+  }
+  .slider > a:focus {
+    background: #000;
+  }
+ .menu-page1{
+      color: antiquewhite;
+      padding-top: 10rem;
+      font-size: 300%;
+  }
+  .menu-item{display: flex;
+    justify-content: flex-end;;
+    }
+.menu-item a:hover{
+    border-bottom: 3px solid whitesmoke;
+    transition: all 0.5s smooth;
+}
+.container{
+    display: block;
+}
+.menu-page1{
+    display: none;
+} 
+#footer{
+    color: white;
+    padding: 1rem
+}
+.footer-content{
+    width:1;
+    padding-left: 1%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer-item{ width:17rem;
+    height: auto;
+    align-items: center;
+    justify-self:center;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+h1{
+    font-size: 240%;
+}
+#icon-master{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
